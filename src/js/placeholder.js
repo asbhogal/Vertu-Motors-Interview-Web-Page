@@ -15,8 +15,8 @@ function updatePlaceholder() {
       ? (reverse = false)
       : i--
     : i === placeholderText.length - 1
-    ? (reverse = true)
-    : i++;
+      ? (reverse = true)
+      : i++;
 }
 
 inputField.setAttribute("placeholder", "");
