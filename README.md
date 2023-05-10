@@ -13,6 +13,8 @@ A single responsive web page rendered from mockups for desktop and mobile provid
  - Mapping of data for car trim section
  - Scroll to top
  - BEM methodology incorporated
+ - Google Fonts 'Mulish' used as alternative to Proxima Nova
+ - Locally hosted fonts
  - Optimised for the web
 
 <strong>:nerd_face: Stacks &#38; Tools Used:</strong><br>
