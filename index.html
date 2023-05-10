@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertu Motors | New & Used Cars For Sale | Nationwide Delivery</title>
+    <meta
+      name="description"
+      content="Start your car search with Vertu Motors. Buy online or visit your local Vertu dealership for the best deals on new and used cars, vans and motorcycles."
+    />
+    <!-- MAIN SCRIPT -->
+    <script type="module" src="/main.js" defer></script>
+    <!-- TRIM CARDS SCRIPT -->
+    <script type="module" src="src/js/trimCards.js" defer></script>
+    <!-- SCROLL TO TOP SCRIPT -->
+    <script type="module" src="src/js/scrollToTop.js" defer></script>
+    <!-- NAVBAR SCRIPT -->
+    <script type="module" src="src/js/navbar.js" defer></script>
+    <!-- PLACEHOLDER SCRIPT -->
+    <script type="module" src="src/js/placeholder.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a class="header__hamburger-button" href="#">
+        <span class="header__hamburger-button__line"></span>
+        <span class="header__hamburger-button__line"></span>
+        <span class="header__hamburger-button__line"></span>
+      </a>
+      <img
+        class="header__logo"
+        src="icons/logo-alt.svg"
+        alt="Vertu Motors logo"
+      />
+      <!-- DESKTOP MENU -->
+      <nav class="header__menu">
+        <ul class="header__menu__ul">
+          <button href="#" class="header__menu__link">
+            <li class="header__menu__link__list">
+              New cars
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-black.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button href="#" class="header__menu__link">
+            <li class="header__menu__link__list">
+              Used cars
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-black.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button href="#" class="header__menu__link">
+            <li class="header__menu__link__list">
+              Servicing
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-black.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button href="#" class="header__menu__link">
+            <li class="header__menu__link__list">
+              Commercials
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-black.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button href="#" class="header__menu__link">
+            <li class="header__menu__link__list">Motability</li>
+          </button>
+        </ul>
+      </nav>
+
+      <!-- MOBILE MENU -->
+      <nav class="header__mobile-menu">
+        <div class="header__mobile-menu__top">
+          <span class="header__mobile-menu__top__title">Menu</span>
+
+          <button class="header__mobile-menu__top__button">
+            <img
+              class="header__mobile-menu__top__button__icon"
+              src="icons/close.svg"
+              alt="A close icon"
+            />
+          </button>
+        </div>
+        <ul class="header__mobile-menu__ul">
+          <button
+            href="#"
+            class="header__menu__link header__mobile-menu__mobile-button"
+          >
+            <li
+              class="header__menu__link__list header__mobile-menu__mobile-button__link"
+            >
+              New cars
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-right.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button
+            href="#"
+            class="header__menu__link header__mobile-menu__mobile-button"
+          >
+            <li
+              class="header__menu__link__list header__mobile-menu__mobile-button__link"
+            >
+              Used cars
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-right.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button
+            href="#"
+            class="header__menu__link header__mobile-menu__mobile-button"
+          >
+            <li
+              class="header__menu__link__list header__mobile-menu__mobile-button__link"
+            >
+              Servicing
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-right.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button
+            href="#"
+            class="header__menu__link header__mobile-menu__mobile-button"
+          >
+            <li
+              class="header__menu__link__list header__mobile-menu__mobile-button__link"
+            >
+              Commercials
+              <img
+                class="header__menu__link__list__icon"
+                src="icons/chevron-right.svg"
+                alt="Chevron arrow pointing down"
+              />
+            </li>
+          </button>
+
+          <button
+            href="#"
+            class="header__menu__link header__mobile-menu__mobile-button"
+          >
+            <li
+              class="header__menu__link__list header__mobile-menu__mobile-button__link"
+            >
+              Motability
+            </li>
+          </button>
+        </ul>
+      </nav>
+      <div class="header__search__container">
+        <img
+          class="header__search__container__left-icon"
+          src="icons/magnifying-glass-grey.svg"
+          alt="A grey magnifying glass icon"
+        />
+        <input
+          class="header__search__container__input"
+          placeholder='Search: "Make, model or location"'
+        />
+        <img
+          class="header__search__container__right-icon"
+          src="icons/microphone.svg"
+          alt="A grey microphone icon"
+        />
+      </div>
+
+      <ul class="header__icons">
+        <li class="header__icons__list">
+          <img
+            class="header__icons__list__image"
+            src="icons/location.svg"
+            alt="A location icon"
+          />
+          <span class="header__icons__list__name">Find us</span>
+        </li>
+        <li class="header__icons__list">
+          <img
+            class="header__icons__list__image"
+            src="icons/heart.svg"
+            alt="A heart icon"
+          />
+          <span class="header__icons__list__name">Save</span>
+        </li>
+        <li class="header__icons__list">
+          <img
+            class="header__icons__list__image"
+            src="icons/profile.svg"
+            alt="A profile icon"
+          />
+          <span class="header__icons__list__name">Log in</span>
+        </li>
+        <li class="header__icons__list mobile-phone-icon">
+          <img
+            class="header__icons__list__image mobile-phone-icon__image"
+            src="icons/phone.svg"
+            alt="A phone icon"
+          />
+        </li>
+      </ul>
+    </header>
+
+    <!-- CONTAINER -->
+    <main class="container">
+      <!-- HERO SECTION -->
+      <section class="container__hero">
+        <picture class="container__hero__image">
+          <source
+            class="container__hero__image"
+            media="(min-width: 426px)"
+            srcset="images/Hero-banner-desktop.jpg"
+          />
+          <source
+            class="container__hero__image"
+            media="(max-width: 425px)"
+            srcset="images/Hero-banner-mobile.jpg"
+          />
+          <img
+            class="container__hero__image"
+            src="images/Hero-banner-desktop.jpg"
+            alt="A BMW car parked in front of a hedge and wall"
+          />
+        </picture>
+        <aside class="container__hero__content content-panel">
+          <h2 class="container__hero__content__heading">
+            Explore the new BMW i4 range
+          </h2>
+          <p class="container__hero__content__text">
+            From the cool Trend and SUV-inspired Active to the sporty ST-Line,
+            the eighth generation Fiesta impresses across the range.
+          </p>
+          <button class="container__hero__content__button button">
+            Book a test drive
+          </button>
+        </aside>
+      </section>
+
+      <!-- TRIMS SECTION -->
+      <section class="container__trims content-panel">
+        <h3 class="container__trims__heading">BMW i4 trims</h3>
+        <div class="container__trims__section">
+          <div class="container__trims__section__trim-cards"></div>
+          <button class="container__trims__section__button">
+            <img
+              class="container__trims__section__button__icon"
+              src="icons/chevron-right.svg"
+              alt="A chevron icon pointing right"
+            />
+          </button>
+        </div>
+      </section>
+
+      <!-- INTERIOR SECTION -->
+      <section class="container__interior">
+        <aside class="container__interior__left-section content-panel">
+          <h2 class="container__interior__left-section__heading">
+            Explore the new BMW interior
+          </h2>
+          <p class="container__interior__left-section__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrudLorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt et dolore magna
+            aliqua.
+          </p>
+          <button class="container__interior__left-section__button button">
+            Request a Personalised Video
+          </button>
+        </aside>
+        <aside class="container__interior__right-section">
+          <img
+            class="container__interior__right-section__interior-image content-image"
+            src="images/Feature-01.jpg"
+            alt="A BMW interior, showing a dashboard and the steering wheel"
+          />
+        </aside>
+      </section>
+
+      <!-- PERFORMANCE SECTION -->
+      <section class="container__performance">
+        <aside class="container__performance__left-section">
+          <img
+            class="container__performance__left-section__image content-image"
+            src="images/Feature-02.jpg"
+            alt="A car being electrically charged"
+          />
+        </aside>
+        <aside class="container__performance__right-section content-panel">
+          <h2 class="container__performance__right-section__heading">
+            Electrifying performance with the BMW i4
+          </h2>
+          <p class="container__performance__right-section__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt et dolore magna aliqua. Ut enim ad minim
+            veniam, quis
+          </p>
+          <div class="container__performance__right-section__stats">
+            <div class="container__performance__right-section__stats__charging">
+              <span
+                class="container__performance__right-section__stats__charging__span"
+                >02:05 hr</span
+              >
+              <p
+                class="container__performance__right-section__stats__charging__text"
+              >
+                Charging at home for a Range of 62 miles
+              </p>
+            </div>
+            <div class="container__performance__right-section__stats__range">
+              <span
+                class="container__performance__right-section__stats__range__span"
+                >365</span
+              >
+              <p
+                class="container__performance__right-section__stats__range__text"
+              >
+                Electric range in miles
+              </p>
+            </div>
+          </div>
+          <button
+            class="container__performance__right-section__stats__button button"
+          >
+            Book a test drive
+          </button>
+        </aside>
+      </section>
+    </main>
+    <button type="button" class="scroll-to-top" title="go-to-top">
+      <img
+        class="scroll-to-top__image"
+        src="icons/chevron.svg"
+        alt="A chevron icon, point upwards"
+      />
+    </button>
+  </body>
+</html>

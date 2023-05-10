@@ -1,0 +1,19 @@
+@use "../_partials/variables" as *;
+
+.container {
+  &__hero {
+    align-items: center;
+    &__content {
+      color: $white;
+      &__heading {
+        font-size: clamp(2rem, 1.8214rem + 0.8929vw, 2.625rem);
+      }
+    }
+    &__image {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

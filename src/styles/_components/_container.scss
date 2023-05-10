@@ -1,0 +1,15 @@
+@use "../_partials/_variables" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: $white;
+  width: 100%;
+  &__hero,
+  &__trims,
+  &__interior,
+  &__performance {
+    display: flex;
+  }
+}

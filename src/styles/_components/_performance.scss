@@ -1,0 +1,42 @@
+@use "../_partials/variables" as *;
+
+.container {
+  &__performance {
+    align-items: center;
+    gap: 3.125rem;
+    background-color: $raisin-black;
+    &__left-section {
+      &__image {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    &__right-section {
+      color: $white;
+      &__heading {
+        font-weight: 800;
+        font-size: clamp(1.75rem, 1.2789rem + 1.7734vw, 2.875rem);
+      }
+      &__stats {
+        display: flex;
+        &__charging,
+        &__range {
+          display: flex;
+          flex-direction: column;
+          flex: 1 1 0;
+          gap: 0.9375rem;
+        }
+        &__charging__span,
+        &__range__span {
+          font-size: clamp(2rem, 1.6336rem + 1.3793vw, 2.875rem);
+          font-weight: 800;
+        }
+        &__charging__text {
+          width: 11.25rem;
+        }
+      }
+    }
+  }
+}

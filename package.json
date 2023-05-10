@@ -1,0 +1,19 @@
+{
+  "name": "site-replication",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-sass": "^0.1.0"
+  }
+}

@@ -1,0 +1,73 @@
+/**** MULISH - EXTRA LIGHT 200 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 200;
+  font-style: normal;
+  src: url("fonts/Mulish-ExtraLight.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - LIGHT 300 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/Mulish-Light.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - REGULAR 400 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Mulish-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - MEDIUM 500 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/Mulish-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - SEMI BOLD 600 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/Mulish-SemiBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - BOLD 700 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/Mulish-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/**** MULISH - EXTRA BOLD 800 ****/
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 800;
+  font-style: normal;
+  src: url("fonts/Mulish-ExtraBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+* {
+  font-family: "Mulish", sans-serif;
+}

@@ -1,0 +1,48 @@
+export default [
+  {
+    id: 1,
+    imgSrc: "./images/Trim-01.jpg",
+    imgAlt: "A blue BMW",
+    title: "M 50",
+    price: "From £65,795",
+    description: [
+      "Velour floor mats",
+      "Sun protection glass",
+      "Automatic Stability Control (ASC)",
+      "Adaptive M suspension",
+      "Storage for wireless charging",
+      "Cruise control with brake assist",
+      "Automatic tailgate operation",
+    ],
+  },
+  {
+    id: 2,
+    imgSrc: "./images/Trim-02.jpg",
+    imgAlt: "A white BMW",
+    title: "M Sport",
+    price: "From £54,980",
+    description: [
+      "Velour floor mats",
+      "Rain sensor including auto headlights activation",
+      "Automatic Stability Control (ASC)",
+      "Standard suspension",
+      "Electric Power Steering (EPS) with Servotronic",
+      "Automatic tailgate operation",
+    ],
+  },
+  {
+    id: 3,
+    imgSrc: "./images/Trim-03.jpg",
+    imgAlt: "A black BMW",
+    title: "Sport",
+    price: "From £53,480",
+    description: [
+      "Velour floor mats",
+      "Rain sensor including auto headlights activation",
+      "Automatic Stability Control (ASC)",
+      "Standard suspension",
+      "Electric Power Steering (EPS) with Servotronic",
+      "Automatic tailgate operation",
+    ],
+  },
+];

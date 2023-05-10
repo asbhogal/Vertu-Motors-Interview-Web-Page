@@ -1,0 +1,24 @@
+@use "../_partials/variables" as *;
+
+.container {
+  &__interior {
+    align-items: center;
+    background-color: $bright-gray-02;
+    &__left-section {
+      color: $raisin-black;
+      &__heading {
+        font-weight: 800;
+        font-size: clamp(1.75rem, 1.2789rem + 1.7734vw, 2.875rem);
+      }
+    }
+    &__right-section {
+      display: flex;
+      &__interior-image {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

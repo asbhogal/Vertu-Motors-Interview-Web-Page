@@ -1,0 +1,16 @@
+@use "../_partials/variables" as *;
+
+.button {
+  background-color: $dark-turquoise;
+  border: none;
+  border-radius: $border-radius-button;
+  outline: none;
+  cursor: pointer;
+  color: $rich-black;
+  padding: 0.9375rem;
+  font-weight: 800;
+  &:hover {
+    background-color: $tiffany-blue;
+    transition: $transition-03;
+  }
+}

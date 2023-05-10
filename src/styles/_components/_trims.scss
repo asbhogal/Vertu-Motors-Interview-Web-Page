@@ -1,0 +1,90 @@
+@use "../_partials/_variables" as *;
+
+.container {
+  &__trims {
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+    &__heading {
+      color: $raisin-black;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+    &__section {
+      display: flex;
+      &__trim-cards {
+        display: flex;
+        gap: 1.25rem;
+        flex: 1 1 0;
+        &__trim-card {
+          display: flex;
+          flex-direction: column;
+          flex: 1 1 0;
+          width: 100%;
+          box-shadow: 0rem 0rem 0.625rem 0rem rgba(191, 191, 191, 1);
+          border-radius: $border-radius-content;
+          cursor: pointer;
+          transition: $transition-03;
+          &:hover {
+            box-shadow: 0rem 0rem 0.625rem 0rem rgb(138 138 138);
+            transition: $transition-03;
+            &__trim-title {
+              color: $maximum-blue-green;
+            }
+          }
+          &__trim-title,
+          &__trim-price,
+          &__trim-description {
+            color: $raisin-black;
+          }
+          &__trim-image {
+            display: flex;
+            height: 14.0625rem;
+            width: 100%;
+            object-fit: contain;
+            margin-top: -2.1875rem;
+          }
+          &__trim-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+          }
+          &__trim-price {
+            font-size: 1.125rem;
+            font-weight: 500;
+            padding-top: 0.75rem;
+            padding-bottom: 1.25rem;
+          }
+          &__trim-description {
+            &__list {
+              display: flex;
+              flex-direction: column;
+              gap: 0.625rem;
+              font-weight: 500;
+              margin-left: 0.9375rem;
+            }
+          }
+        }
+      }
+      &__button {
+        position: absolute;
+        transform: translate(-7.3125rem, 20.4375rem);
+        right: 0;
+        top: 25%;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        background-color: transparent;
+        outline: none;
+        border: 0.125rem solid $light-silver;
+        border-radius: 50%;
+        box-shadow: 0rem 0rem 0.9375rem 0rem rgba(207, 207, 207, 1);
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        &__icon {
+          width: 80%;
+          height: 80%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use "../_partials/variables" as *;
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 100;
+  background-color: $light-sea-green;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.8;
+  &__image {
+    width: 50%;
+    height: 50%;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}

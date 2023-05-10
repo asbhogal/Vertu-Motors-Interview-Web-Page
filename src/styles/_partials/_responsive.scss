@@ -1,0 +1,192 @@
+@use "../_partials/_variables" as *;
+
+@media only screen and (2000px <= width) {
+  .header,
+  .container {
+    width: 90rem !important;
+  }
+}
+
+@media only screen and (width <= 1260px) {
+  .header {
+    &__hamburger-button {
+      display: flex !important;
+    }
+    &__menu {
+      display: none !important;
+    }
+  }
+}
+
+@media only screen and (width <= 1024px) {
+  .container {
+    &__interior,
+    &__performance {
+      gap: 0 !important;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (width <= 1280px) {
+  .container {
+    &__trims__section {
+      &__trim-cards {
+        flex-direction: column;
+      }
+      &__button {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@media only screen and (width >= 600px) {
+  .container {
+    &__performance,
+    &__interior {
+      justify-content: space-between;
+    }
+    &__performance {
+      &__left-section {
+        width: 40rem;
+      }
+      &__right-section {
+        width: 37.1875rem;
+      }
+    }
+    &__interior {
+      &__left-section {
+        width: 37.1875rem;
+      }
+      &__right-section {
+        width: 40rem;
+      }
+    }
+  }
+}
+
+@media only screen and (width <= 600px) {
+  .content-panel {
+    padding: 1.875rem 0.9375rem !important;
+  }
+}
+
+@media only screen and (width <= 820px) {
+  .container__hero__content {
+    position: unset;
+    width: 100%;
+  }
+}
+
+@media only screen and (width >= 821px) {
+  .container {
+    &__trims,
+    &__interior,
+    &__performance {
+      padding: $padding;
+    }
+  }
+}
+
+@media only screen and (width >= 749px) {
+  .container__hero__content {
+    position: absolute;
+  }
+}
+
+@media only screen and (width <= 748px) {
+  .header {
+    &__search {
+      &__container {
+        display: none !important;
+      }
+    }
+    &__icons__list__name {
+      display: none;
+    }
+  }
+  .button {
+    width: 100%;
+  }
+  .container {
+    &__hero {
+      flex-direction: column;
+      &__content {
+        align-items: center;
+        width: 100% !important;
+        text-align: center;
+        background-color: $raisin-black;
+        &__heading {
+          width: 20rem;
+        }
+      }
+    }
+    &__trims__section {
+      flex-direction: column;
+      &__trim-cards {
+        flex-direction: column;
+      }
+    }
+    &__interior {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media only screen and (width <= 426px) {
+  .header {
+    justify-content: space-around !important;
+    &__logo {
+      height: 3.125rem;
+    }
+  }
+  .container {
+    top: 4.375rem;
+    &__trims__section__trim-cards__trim-card {
+      padding: 1.875rem 1.25rem;
+      &__trim-image {
+        margin-top: unset !important;
+      }
+    }
+  }
+}
+
+@media only screen and (width >= 426px) {
+  .header__logo {
+    height: 4.375rem;
+  }
+  .button {
+    width: max-content;
+  }
+  .mobile-phone-icon {
+    display: none !important;
+  }
+  .container {
+    top: 5.625rem;
+    &__interior {
+      gap: 3.125rem;
+    }
+    &__hero {
+      &__content {
+        width: 20.9375rem;
+        left: 9.375rem;
+      }
+    }
+    &__performance__right-section__stats__button {
+      width: 12.5rem;
+    }
+    &__trims__section__trim-cards__trim-card {
+      padding: 2.1875rem 2.5rem;
+    }
+  }
+  .content-image {
+    border-radius: $border-radius-content;
+  }
+}
+
+@media only screen and (width <= 375px) {
+  .container__hero__image {
+    height: 12.5rem !important;
+  }
+}
